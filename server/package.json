@@ -1,0 +1,36 @@
+{
+  "name": "goledgerchallenge",
+  "version": "1.0.0",
+  "description": "A frontend for a Rest API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus-de-siqueira/goledger-challenge-web.git"
+  },
+  "keywords": [
+    "challenge",
+    "goledger",
+    "frontend",
+    "api",
+    "api",
+    "rest"
+  ],
+  "author": "Mateus de Siqueira Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus-de-siqueira/goledger-challenge-web/issues"
+  },
+  "homepage": "https://github.com/mateus-de-siqueira/goledger-challenge-web#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-mongoose": "^0.1.0",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
